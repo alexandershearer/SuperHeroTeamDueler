@@ -7,13 +7,11 @@ class Hero:
         self.current_health = starting_health
 
     def fight(self, opponent):
-
-        print(random.choice(self.name))
-
-        # TODO: Fight each hero until a victor emerges.
-        # Phases to implement:
-        #1) randomly choose winner,
-        #Hint: Look into random library, more specifically the choice method
+    # TODO: Fight each hero until a victor emerges.
+    # Phases to implement:
+    #1) randomly choose winner,
+    #Hint: Look into random library, more specifically the choice method
+        print(f'{random.choice([self.name, opponent])} won!')
 
 if __name__ == "__main__":
     # If you run this file from the terminal
