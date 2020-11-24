@@ -104,7 +104,7 @@ if __name__ == "__main__":
     game_is_running = True
 
     # Instantiate Game Arena
-    arena = Arena(Team("Avengers"), Team("DC"))
+    arena = Arena(Team("Heroes"), Team("Villians"))
 
     # Build Teams
     arena.build_team_one()
